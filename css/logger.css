@@ -1,0 +1,87 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  height: 100%;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #ffffff;
+  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.2);
+}
+
+p {
+  margin-bottom: 20px;
+  color: #dddddd;
+}
+
+table {
+  border-collapse: collapse;
+  width: 95%;
+  max-width: 2000px;
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th,
+td {
+  padding: 20px 25px;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+th {
+  background-color: #222;
+  color: #fff;
+}
+
+tr:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+a {
+  color: #ff5555;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.logout-btn {
+  background-color: #ff4d4d;
+  color: white;
+  padding: 8px 14px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  margin-left: 700%;
+}
+
+.logout-btn:hover {
+  background-color: #e60000;
+}
+
+.select-all {
+  margin-bottom: 10px;
+}
+.delete-btn {
+  background-color: red;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 1000px;
+}

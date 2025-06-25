@@ -34,7 +34,7 @@ $conn->close();
   <link rel="icon" href="image/logo.png" type="image/png" sizes="32x32">
 </head>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/portfolio.css"/>
+  <link rel="stylesheet" href="portfolio.css"/>
 </head>
 <body>
   <canvas id="background"></canvas>
